@@ -13,13 +13,12 @@
             <h1 class="h.1" style="text-align: center;">ბავშვის სარეგისტრაციო ბარათი</h1>
         </div>
         <div class="box2">
-            <fieldset>
+            <fieldset style="border: none;">
             <fieldset class="fs1" style="border: none;">
-                <legend style="font-size: 23px;"><b>რეგისტრაცია</b></legend>
+                <h1 style="text-align: center;">რეგისტრაცია</h1>
+                <hr>
                 <form>
                     <input class="inp1" type="name" placeholder="ბავშვის სახელი და გვარი">
-                    <br>
-                    <input class="inp2" type="datetime" placeholder="დაბადების თარიღი">
                     <br>
                     <input class="inp3" type="adress" placeholder="მისამართი">
                     <br>
@@ -28,11 +27,18 @@
                         <option>მამრობითი</option>
                         <option>მდედრობითი</option>
                     </select>
+                    <br> <br>
+                    <label for="birthday">დაბადების თარიღი:</label>
+                    <br><br>
+                    <input class="data1" type="date" id="birthday" name="birthday">
+                    <br>
+                    <!-- <input type="submit">
+                    <br> -->
                 </form>
             </fieldset>
             <div class="box3">
                 <h2 class="h.2">მშობლები</h2>
-                <p>დედა</p>
+                <p><b>დედა</b></p>
                 <form>
                     <input class="inp1" type="name" placeholder="სახელი და გვარი">
                     <br>
@@ -40,7 +46,7 @@
                     <br>
                     <input class="inp3" type="adress" placeholder="სამუშაო ადგილი">
                 </form>
-                <p>მამა</p>
+                <p><b>მამა</b></p>
                 <form>
                     <input class="inp1" type="name" placeholder="სახელი და გვარი">
                     <br>
@@ -49,7 +55,7 @@
                     <input class="inp3" type="adress" placeholder="სამუშაო ადგილი">
                 </form>
                 <div class="box4">
-                    <div class="box5"><p class="p1">&nbsp;ოჯახთან დაახლოებული პირი (ინფორმაცია მნიშვნელოვანია, იმ შემთხვევაში თუ მშობლებთან ვერ ხერხდება დაკავშირება)&nbsp;</p></div>
+                    <div class="box5"><p class="p1"><b>&nbsp;ოჯახთან დაახლოებული პირი <br>(ინფორმაცია მნიშვნელოვანია, იმ შემთხვევაში თუ  მშობლებთან ვერ ხერხდება დაკავშირება)&nbsp;</b></p></div>
                     <form>
                         <input class="inp1" type="name" placeholder="სახელი და გვარი">
                         <br>
@@ -58,6 +64,8 @@
                 </div>
             </div>
         </fieldset>
+        <button class="btn1">Submit</button>
+        <br>
         </div>
     </body>
 </html>
