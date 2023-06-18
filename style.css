@@ -1,0 +1,28 @@
+*{box-sizing: border-box;}
+body {
+    margin: 0;
+    padding: 0;
+}
+.img1 {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+.inp1 , .inp2 , .inp3 {
+    width: 250px;
+    height: 30px;
+}
+.box3 {
+    margin-left: 25px;
+}
+.box5 {
+    background-color: rgb(207, 165, 165);
+    width: fit-content;
+    border-radius: 5px;
+}
+.p1 {
+    font-size: 19px;
+}
