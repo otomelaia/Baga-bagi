@@ -2,6 +2,9 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url(backgrpund.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .img1 {
     width: 250px;
@@ -21,6 +24,8 @@ body {
     width: fit-content;
     margin: auto;
     border-radius: 25px;
+    background-color: rgb(240, 255, 255);
+    opacity: 0.9;
 }
 .box3 {
     margin-left: 25px;
@@ -31,7 +36,6 @@ body {
 }
 .p1 {
     font-size: 19px;
-    color: red;
 }
 .data1 {
     height: 30px;
@@ -47,4 +51,5 @@ body {
     background-color: blueviolet;
     border-radius: 10px;
     color: aquamarine;
+    cursor: pointer;
 }
