@@ -6,10 +6,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .img1 {
     width: 250px;
     height: 250px;
     margin-top: 50px;
+    padding-top: 50px;
      display: block;
      margin-left: auto;
      margin-right: auto;
@@ -19,13 +21,23 @@ body {
     height: 30px;
     margin-top: 5px;
 }
+.box1 {
+  border-radius: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  height: 300px;
+  width: 320px;
+  background-color: white;
+}
 .box2 {
     box-shadow: 5px 20px 50px grey;
     width: fit-content;
     margin: auto;
     border-radius: 25px;
     background-color: rgb(240, 255, 255);
-    opacity: 0.9;
+    opacity: 0.97;
 }
 .box3 {
     margin-left: 25px;
@@ -35,7 +47,7 @@ body {
     border-radius: 5px;
 }
 .p1 {
-    font-size: 19px;
+    font-size: 15px;
 }
 .data1 {
     height: 30px;
@@ -70,17 +82,19 @@ body {
     text-align: center;
   }
   
-  .button {
+  .b1 {
+    letter-spacing: 0.2em;
+    background-color: green;
     font-size: 1em;
     padding: 10px;
     color: #523333;
-    border: 2px solid #06D85F;
-    border-radius: 20px/50px;
+    border: 5px solid green;
+    border-radius: 10px;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
   }
-  .button:hover {
+  .b1:hover {
     background: #28368b;
   }
   
