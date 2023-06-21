@@ -8,65 +8,88 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="box1" style="width: 100%;">
+        <div class="box1">
             <img style="border-radius: 30px;" class="img1" src="logo.jpg" alt="##">
-            <h1 class="h.1" style="text-align: center;">ბავშვის სარეგისტრაციო ბარათი</h1>
         </div>
         <div class="box2">
             <fieldset style="border: none;">
             <fieldset class="fs1" style="border: none;">
-                <h1 style="text-align: center;">რეგისტრაცია</h1>
+                <h1 class="h.1" style="text-align: center;">ბავშვის სარეგისტრაციო ბარათი</h1>
                 <hr>
-                <form>
-                    <input class="inp1" type="name" placeholder="ბავშვის სახელი და გვარი">
-                    <br>
-                    <input class="inp3" type="adress" placeholder="მისამართი">
-                    <br>
-                    <select>
-                        <option selected disabled>აირჩიე სქესი</option>
-                        <option>მამრობითი</option>
-                        <option>მდედრობითი</option>
-                    </select>
+                <form style="display: flex;align-items: center;gap: 30px;">
+                    <div>
+                        <h4>ინფორმაცია ბავშვზე</h4>
+                        <label for="name">სახელი</label>
+                        <input style="margin-left: 10px;" class="inp1" type="name" placeholder="ბავშვის სახელი">
+                        <br>
+                        <label for="name">გვარი</label>
+                        <input style="margin-left: 22px;" class="inp1" type="name" placeholder="ბავშვის გვარი">
+                        <br>
+                        <label for="adress">მის ..</label>
+                        <input style="margin-left: 29px;" class="inp3" type="adress" placeholder="მისამართი">
+                    </div>
                     <br> <br>
-                    <label for="birthday">დაბადების თარიღი:</label>
-                    <br><br>
-                    <input class="data1" type="date" id="birthday" name="birthday">
+                    <div class="box7">
+                        <label for="birthday"><b>დაბადების თარიღი:</b></label>
+                        <br><br>
+                        <input class="data1" type="date" id="birthday" name="birthday">
+                        <br>
+                        <select style="margin-top: 20px;">
+                            <option selected disabled>აირჩიე სქესი</option>
+                            <option>მამრობითი</option>
+                            <option>მდედრობითი</option>
+                        </select>
+                    </div>
                     <br>
-                    <!-- <input type="submit">
-                    <br> -->
                 </form>
             </fieldset>
             <div class="box3">
                 <h2 class="h.2">მშობლები</h2>
                 <p><b>დედა</b></p>
                 <form>
-                    <input class="inp1" type="name" placeholder="სახელი და გვარი">
+                    <label for="name">სახელი</label>
+                    <input style="margin-left: 10px;" class="inp1" type="name" placeholder="სახელი">
                     <br>
-                    <input class="inp2" type="datetime" placeholder="ტელეფონი">
+                    <label for="name">გვარი</label>
+                    <input style="margin-left: 22px;" class="inp1" type="name" placeholder="გვარი">
                     <br>
-                    <input class="inp3" type="adress" placeholder="სამუშაო ადგილი">
+                    <label for="number">მობ ..</label>
+                    <input style="margin-left: 25px;" class="inp2" type="datetime" placeholder="ტელეფონი">
+                    <br>
+                    <label for="adress">მის ..</label>
+                    <input style="margin-left: 25px;" class="inp3" type="adress" placeholder="სამუშაო ადგილი">
                 </form>
                 <p><b>მამა</b></p>
-                <form>
-                    <input class="inp1" type="name" placeholder="სახელი და გვარი">
+                <form>                    <label for="name">სახელი</label>
+                    <input style="margin-left: 10px;" class="inp1" type="name" placeholder="სახელი">
                     <br>
-                    <input class="inp2" type="datetime" placeholder="ტელეფონი">
+                    <label for="name">გვარი</label>
+                    <input style="margin-left: 22px;" class="inp1" type="name" placeholder="გვარი">
                     <br>
-                    <input class="inp3" type="adress" placeholder="სამუშაო ადგილი">
+                    <label for="number">მობ ..</label>
+                    <input style="margin-left: 25px;" class="inp2" type="datetime" placeholder="ტელეფონი">
+                    <br>
+                    <label for="adress">მის ..</label>
+                    <input style="margin-left: 25px;" class="inp3" type="adress" placeholder="სამუშაო ადგილი">
                 </form>
                 <div class="box4">
-                    <div class="box5"><p class="p1"><b>&nbsp;ოჯახთან დაახლოებული პირი <br>(ინფორმაცია მნიშვნელოვანია, იმ შემთხვევაში თუ  მშობლებთან ვერ ხერხდება დაკავშირება)&nbsp;</b></p></div>
+                    <div class="box5"><p class="p1"><b>&nbsp;ოჯახთან დაახლოებული პირი </b><br>(ინფორმაცია მნიშვნელოვანია, იმ შემთხვევაში თუ  მშობლებთან ვერ ხერხდება დაკავშირება)&nbsp;</p></div>
                     <form>
-                        <input class="inp1" type="name" placeholder="სახელი და გვარი">
+                        <label for="name">სახელი</label>
+                        <input style="margin-left: 10px;" class="inp1" type="name" placeholder="სახელი">
                         <br>
-                        <input class="inp2" type="datetime" placeholder="ტელეფონი">
+                        <label for="name">გვარი</label>
+                        <input style="margin-left: 22px;" class="inp1" type="name" placeholder="გვარი">
+                        <br>
+                        <label for="number">მობ ..</label>
+                        <input style="margin-left: 25px;" class="inp2" type="datetime" placeholder="ტელეფონი">
                     </form>
                 </div>
             </div>
         </fieldset>
         <br>
 <div class="box">
-	<a class="button" href="#popup1">submit</a>
+	<a class="b1" href="#popup1" style="color: white;"><b>Submit</b></a>
 </div>
 
 <div id="popup1" class="overlay">
