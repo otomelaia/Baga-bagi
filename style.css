@@ -6,7 +6,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+@media screen and (max-width: 600px) {
+  body {
+    width: auto;
+  }
+}
 .img1 {
     width: 250px;
     height: 250px;
